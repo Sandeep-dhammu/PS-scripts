@@ -1,3 +1,5 @@
+# Execute Below given command in your terminal before running the script else script will won't work
+# Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 # Function to prompt the user for confirmation
 function Confirm-Action {
     param (
